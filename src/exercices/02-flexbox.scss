@@ -20,11 +20,26 @@
   }
 
   .wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
   }
 
   .wrapper-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
   }
 
   .wrapper-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
   }
 }
